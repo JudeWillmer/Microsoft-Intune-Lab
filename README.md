@@ -110,8 +110,7 @@ Existing Windows configuration policies were reviewed within Microsoft Intune to
 3. Verified previously created Endpoint Security policies.
 
 ## **Screenshots**
-
-**Figure 1.** Reviewing existing Windows configuration policies.
+<img width="1918" height="993" alt="Image 1" src="https://github.com/user-attachments/assets/122d7f44-1085-4c96-8134-dc25769a16ed" />
 
 ---
 
@@ -129,14 +128,10 @@ A Windows 10/11 Compliance policy was created to define the security requirement
 6. Created the policy and verified it was successfully deployed.
 
 ## **Screenshots**
-
-**Figure 2.** Configuring Windows password security requirements.
-
-**Figure 3.** Configuring Windows Device Health compliance settings.
-
-**Figure 4.** Reviewing the Windows compliance policy before creation.
-
-**Figure 5.** Completed Windows 10/11 Compliance policy.
+<img width="1918" height="993" alt="Image 2" src="https://github.com/user-attachments/assets/1f93ed6d-33d8-4702-b8f1-bbc0d215ee2a" />
+<img width="1918" height="993" alt="Image 3" src="https://github.com/user-attachments/assets/da2c0328-ecaa-4e69-9141-054db730c8b8" />
+<img width="1918" height="995" alt="Image 4" src="https://github.com/user-attachments/assets/e025a4b1-608e-4bff-9455-4df897211260" />
+<img width="1918" height="993" alt="Image 5" src="https://github.com/user-attachments/assets/68ac0cfe-8b89-4525-afdd-ba26b4c337bd" />
 
 ---
 
@@ -154,16 +149,11 @@ An Apple Mobile Device Restrictions configuration profile was created to enforce
 6. Created the policy and verified it was successfully deployed.
 
 ## **Screenshots**
-
-**Figure 6.** Creating the Apple Mobile Device Restrictions profile.
-
-**Figure 7.** Configuring Apple Mobile password requirements.
-
-**Figure 8.** Configuring additional Apple Mobile device restrictions.
-
-**Figure 9.** Reviewing the Device Restrictions profile before creation.
-
-**Figure 10.** Completed Apple Mobile Device Restrictions policy.
+<img width="1918" height="1010" alt="Image 6" src="https://github.com/user-attachments/assets/675f9a4e-df81-4584-bd5b-838cf4f86a5f" />
+<img width="1918" height="1008" alt="Image 7" src="https://github.com/user-attachments/assets/08e043a2-01a6-4054-85ec-aefa3a6daded" />
+<img width="1918" height="1010" alt="Image 8" src="https://github.com/user-attachments/assets/00e2c17e-9296-411d-8e85-8ec9c87c8955" />
+<img width="1918" height="1010" alt="Image 9" src="https://github.com/user-attachments/assets/943b969d-5883-4d1f-987f-3cdbf048eabf" />
+<img width="1918" height="1010" alt="Image 10" src="https://github.com/user-attachments/assets/0dc69a82-950b-42ba-8f73-6c231e653434" />
 
 ---
 
@@ -179,12 +169,9 @@ The Apple Mobile Device Restrictions policy was assigned to a security group to 
 4. Verified group membership and policy assignment.
 
 ## **Screenshots**
-
-**Figure 11.** Creating the Apple Mobile security group.
-
-**Figure 12.** Assigning the Device Restrictions policy to the security group.
-
-**Figure 13.** Reviewing the Apple Mobile security group membership.
+<img width="1918" height="1010" alt="Image 11" src="https://github.com/user-attachments/assets/558bb7c3-dd6e-4e97-800d-395b0572469d" />
+<img width="1918" height="1010" alt="Image 12" src="https://github.com/user-attachments/assets/334464ef-e18c-41d3-8f20-0275da96952b" />
+<img width="1918" height="1008" alt="Image 13" src="https://github.com/user-attachments/assets/3e484a16-e0cc-4108-9e38-fb3c33e069dd" />
 
 ---
 
@@ -202,12 +189,9 @@ An Apple Mobile Compliance policy was created to define the security requirement
 6. Created the policy.
 
 ## **Screenshots**
-
-**Figure 14.** Configuring Apple Mobile compliance settings.
-
-**Figure 15.** Configuring Apple Mobile password compliance requirements.
-
-**Figure 16.** Reviewing the Apple Mobile Compliance policy before creation.
+<img width="1918" height="1008" alt="Image 14" src="https://github.com/user-attachments/assets/d80aeefe-a293-4d89-be4a-18226c539065" />
+<img width="1918" height="1010" alt="Image 15" src="https://github.com/user-attachments/assets/e073944c-6543-4421-b349-b0e78445b4c1" />
+<img width="1918" height="1010" alt="Image 16" src="https://github.com/user-attachments/assets/f15b2758-2716-4a7c-907b-45271ee668bc" />
 
 ---
 
@@ -223,10 +207,8 @@ After deployment, the Apple Mobile Compliance policy was reviewed using the Micr
 4. Verified the compliance status.
 
 ## **Screenshots**
-
-**Figure 17.** Monitoring the Apple Mobile Compliance policy.
-
-**Figure 18.** Reviewing the Apple Mobile Compliance policy properties.
+<img width="1918" height="1010" alt="Image 17" src="https://github.com/user-attachments/assets/144245ff-014d-4642-8c0e-83df64f00d3f" />
+<img width="1918" height="1010" alt="Image 18" src="https://github.com/user-attachments/assets/2691abb0-ce6b-49c2-870e-9f5114434fbb" />
 
 ---
 
