@@ -18,12 +18,9 @@ A Microsoft Defender Antivirus policy was created to enable centralized antiviru
 4. Reviewed the policy after creation.
 
 ## **Screenshots**
-
-**Figure 1.** Creating a new Microsoft Defender Antivirus policy.
-
-**Figure 2.** Configuring Microsoft Defender Antivirus settings.
-
-**Figure 3.** Completed Microsoft Defender Antivirus policy.
+<img width="1918" height="992" alt="Image 1" src="https://github.com/user-attachments/assets/360102c3-bfae-455d-ac57-df43cf9e3666" />
+<img width="1918" height="993" alt="Image 2" src="https://github.com/user-attachments/assets/24b571af-b87b-4be6-be0f-af78b7907274" />
+<img width="1918" height="993" alt="Image 3" src="https://github.com/user-attachments/assets/12f0ce8b-7558-4245-a918-486a55ec8b7d" />
 
 ---
 
@@ -39,10 +36,8 @@ A BitLocker Disk Encryption policy was created to enforce full disk encryption o
 4. Reviewed the completed BitLocker policy.
 
 ## **Screenshots**
-
-**Figure 4.** Creating the BitLocker disk encryption policy.
-
-**Figure 5.** Completed BitLocker policy.
+<img width="1918" height="992" alt="Image 4" src="https://github.com/user-attachments/assets/87980f41-0630-422c-93eb-92ff9155eab3" />
+<img width="1918" height="993" alt="Image 5" src="https://github.com/user-attachments/assets/1e38addb-cf30-4812-b143-449dee93c106" />
 
 ---
 
@@ -58,10 +53,8 @@ An Endpoint Detection and Response (EDR) policy was created to onboard Windows d
 4. Reviewed the completed EDR policy.
 
 ## **Screenshots**
-
-**Figure 6.** Configuring the Endpoint Detection and Response (EDR) policy.
-
-**Figure 7.** Completed Endpoint Detection and Response (EDR) policy.
+<img width="1918" height="992" alt="Image 6" src="https://github.com/user-attachments/assets/9dc7edef-680e-4c3e-8b32-330f2d60557c" />
+<img width="1918" height="993" alt="Image 7" src="https://github.com/user-attachments/assets/0768a2eb-ac44-4263-8663-57014eea345f" />
 
 ---
 
@@ -79,16 +72,12 @@ An Attack Surface Reduction policy was created using the Device Control profile 
 6. Completed the policy configuration.
 
 ## **Screenshots**
-
-**Figure 8.** Configuring the Attack Surface Reduction Device Control policy.
-
-**Figure 9.** Configuring USB and Bluetooth restrictions.
+<img width="1918" height="993" alt="Image 8" src="https://github.com/user-attachments/assets/895b9911-41a5-4b75-bbd4-40fabca77e6e" />
+<img width="1918" height="992" alt="Image 9" src="https://github.com/user-attachments/assets/133427b8-7c40-41b5-a664-e0fea7227564" />
 
 ---
 
 # **Recommendations**
-
-Based on this lab, the following security practices are recommended:
 
 - Enable Microsoft Defender Antivirus policies to provide centralized malware protection across managed devices.
 - Enforce BitLocker encryption to protect sensitive data if a device is lost or stolen.
