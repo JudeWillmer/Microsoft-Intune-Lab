@@ -227,3 +227,88 @@ Based on this lab, the following security practices are recommended:
 # **Conclusion**
 
 This lab demonstrated how Microsoft Intune can be used to centrally configure and manage Compliance and Configuration policies across Windows and Apple mobile devices. Windows Compliance policies were created to enforce endpoint security requirements, while Apple Mobile Device Restriction and Compliance policies were configured to strengthen mobile device security. Security groups were used to deploy policies to targeted users, and the monitoring dashboard was reviewed to validate policy deployment and compliance reporting. Together, these features demonstrate how Microsoft Intune helps organizations standardize security configurations and maintain compliance across multiple device platforms.
+
+# Lab 3 – Microsoft Intune Application Deployment
+
+## **Objective**
+
+The objective of this lab was to deploy and manage applications using Microsoft Intune across Windows, Android, and iOS platforms. Applications were added from the Microsoft Store (new), Built-in app catalogue, and Apple App Store, then assigned to security groups to demonstrate centralized application deployment using Microsoft Intune.
+
+---
+
+# **Scenario 1 – Deploy a Windows Application from the Microsoft Store**
+
+A Windows application was deployed using the Microsoft Store (new) integration within Microsoft Intune. Adobe Acrobat Reader DC was selected, assigned to a Windows device group, and reviewed to verify successful deployment.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Intune → Apps → All Apps → Add**.
+2. Selected **Microsoft Store app (new)**.
+3. Searched for **Adobe Acrobat Reader DC**.
+4. Selected the application.
+5. Assigned the application to the **Windows Devices** security group.
+6. Reviewed and created the deployment.
+7. Verified the application properties and assignment.
+
+## **Screenshots**
+<img width="1918" height="1008" alt="Image 1" src="https://github.com/user-attachments/assets/5995b077-818e-4511-a895-08cdcf9b6fb8" />
+<img width="1918" height="1010" alt="Image 2" src="https://github.com/user-attachments/assets/e04679e6-09ab-41d5-9f38-c8cc372f83c9" />
+<img width="1918" height="1010" alt="Image 3" src="https://github.com/user-attachments/assets/4ff1280c-157c-4810-af39-40a4197577e0" />
+
+---
+
+# **Scenario 2 – Deploy a Built-in Android Application**
+
+A built-in Android application was deployed using Microsoft Intune's Built-in app catalogue. Microsoft Edge was selected and assigned to an Android security group, demonstrating how Microsoft applications can be quickly deployed without requiring installation packages.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Intune → Apps → All Apps → Add**.
+2. Selected **Built-in app**.
+3. Chose **Microsoft Edge (Android)**.
+4. Assigned the application to the Android security group.
+5. Created the deployment.
+6. Verified the application properties.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 4" src="https://github.com/user-attachments/assets/e841eb13-9062-463e-890e-e85a043f05c1" />
+<img width="1918" height="1010" alt="Image 5" src="https://github.com/user-attachments/assets/9ce75fe3-62db-476d-a0ab-38592eb64461" />
+
+---
+
+# **Scenario 3 – Deploy an iOS App Store Application**
+
+An iOS application was deployed from the Apple App Store using Microsoft Intune. Microsoft Outlook was selected, assigned to an iOS device group, and verified within the iOS application inventory to demonstrate centralized application management for Apple devices.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Intune → Apps → All Apps → Add**.
+2. Selected **iOS Store app**.
+3. Searched for **Microsoft Outlook**.
+4. Selected the application.
+5. Assigned the application to the **iOS Devices** security group.
+6. Reviewed and created the deployment.
+7. Verified the application properties and deployment within the iOS application inventory.
+
+## **Screenshots**
+<img width="1917" height="1006" alt="Image 6" src="https://github.com/user-attachments/assets/6221c495-d5d6-4023-9c42-00ec182ba9b5" />
+<img width="1918" height="1010" alt="Image 7" src="https://github.com/user-attachments/assets/91816d6d-c6e3-4e92-bd5e-996b30d4f8f7" />
+<img width="1916" height="1007" alt="Image 8" src="https://github.com/user-attachments/assets/822729f5-15f0-4af2-835c-dad7db960391" />
+
+---
+
+# **Recommendations**
+
+Based on this lab, the following best practices are recommended:
+
+- Deploy applications through Microsoft Intune to centrally manage software distribution across multiple platforms.
+- Use security groups to target application deployments to specific users or device collections.
+- Validate application assignments after deployment to ensure successful distribution.
+- Utilize Built-in applications where available to simplify Microsoft application deployment.
+- Regularly review application inventories within Intune to verify deployment status and maintain application compliance.
+
+---
+
+# **Conclusion**
+
+This lab demonstrated how Microsoft Intune provides centralized application deployment across Windows, Android, and iOS platforms. Applications were successfully deployed from the Microsoft Store, the Built-in application catalogue, and the Apple App Store, then assigned to device groups for targeted deployment. Reviewing application properties and inventories confirmed successful configuration, demonstrating how Microsoft Intune simplifies enterprise application management while providing consistent software deployment across multiple operating systems.
