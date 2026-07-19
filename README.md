@@ -312,3 +312,147 @@ Based on this lab, the following best practices are recommended:
 # **Conclusion**
 
 This lab demonstrated how Microsoft Intune provides centralized application deployment across Windows, Android, and iOS platforms. Applications were successfully deployed from the Microsoft Store, the Built-in application catalogue, and the Apple App Store, then assigned to device groups for targeted deployment. Reviewing application properties and inventories confirmed successful configuration, demonstrating how Microsoft Intune simplifies enterprise application management while providing consistent software deployment across multiple operating systems.
+
+# Lab 4 – Microsoft Entra ID User and Group Management
+
+## **Objective**
+
+The objective of this lab was to manage users and groups within Microsoft Entra ID by creating user accounts, configuring user properties, reviewing sign-in activity, managing deleted users, configuring Self-Service Password Reset (SSPR), creating Microsoft 365 and Security groups, assigning group members, and implementing dynamic group membership rules based on user attributes.
+
+---
+
+# **Scenario 1 – Create a New User**
+
+A new Microsoft Entra ID user account was created with basic identity information and additional organizational properties. The account was then reviewed within the Users list to verify successful creation.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Entra Admin Center → Users → New User**.
+2. Entered the user's identity information.
+3. Configured user properties including job title, department, and company.
+4. Reviewed and created the user account.
+5. Verified the user within the Microsoft Entra Users list.
+
+## **Screenshots**
+<img width="1918" height="1011" alt="Image 1" src="https://github.com/user-attachments/assets/7dfa8082-3e1c-4232-b8ec-fbdbfb17a6fe" />
+<img width="1918" height="1011" alt="Image 2" src="https://github.com/user-attachments/assets/8e7ffe73-0f8f-43f6-9a49-4640a1d6cf11" />
+<img width="1918" height="1008" alt="Image 3" src="https://github.com/user-attachments/assets/55643529-8029-45ff-bd45-f0d3dbfa0d9e" />
+
+---
+
+# **Scenario 2 – Review User Sign-in Logs**
+
+Microsoft Entra ID sign-in logs were reviewed to monitor authentication activity, successful sign-ins, and user access information.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Entra Admin Center → Users → Sign-in Logs**.
+2. Reviewed recent user authentication events.
+3. Verified successful sign-in activity and associated details.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 4" src="https://github.com/user-attachments/assets/3512a619-e433-49b7-841d-fe8e3c2d4cd8" />
+
+---
+
+# **Scenario 3 – Manage Deleted Users**
+
+Deleted user accounts were reviewed within Microsoft Entra ID to demonstrate the ability to restore or permanently remove user accounts during the retention period.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Entra Admin Center → Users → Deleted Users**.
+2. Reviewed recently deleted user accounts.
+3. Verified available restore and permanent deletion options.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 5" src="https://github.com/user-attachments/assets/474d893c-616b-4b0d-8d61-eb09af36dc3e" />
+
+---
+
+# **Scenario 4 – Configure Self-Service Password Reset (SSPR)**
+
+Self-Service Password Reset settings were reviewed to demonstrate how organizations can allow users to securely reset their own passwords while reducing administrative workload.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Entra Admin Center → Password Reset**.
+2. Reviewed the Self-Service Password Reset configuration.
+3. Examined the available deployment options.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 6" src="https://github.com/user-attachments/assets/5425e8a8-01ed-4aec-871c-548f6ace864e" />
+
+---
+
+# **Scenario 5 – Create Microsoft 365 and Security Groups**
+
+Both Security Groups and Microsoft 365 Groups were created to demonstrate different group types available within Microsoft Entra ID for permission management, collaboration, and resource access.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Entra Admin Center → Groups → New Group**.
+2. Created a Security Group.
+3. Created a Microsoft 365 Group.
+4. Reviewed all groups within the Groups dashboard.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 7" src="https://github.com/user-attachments/assets/8a03f0cf-7a18-424f-aa00-3cb0588ad9b5" />
+<img width="1918" height="1010" alt="Image 8" src="https://github.com/user-attachments/assets/009bbd2d-cddc-4a42-888f-0d39084f9fee" />
+<img width="1918" height="1010" alt="Image 9" src="https://github.com/user-attachments/assets/4211fd55-fc0f-46d9-b58d-1fd58079b328" />
+
+---
+
+# **Scenario 6 – Add Members to an Assigned Security Group**
+
+Users were manually assigned to a Security Group to demonstrate role-based access management and centralized user administration.
+
+## **Steps Performed**
+
+1. Opened the Security Group.
+2. Selected **Members → Add Members**.
+3. Selected users to add to the group.
+4. Saved the changes.
+5. Verified successful group membership.
+
+## **Screenshots**
+<img width="1918" height="1008" alt="Image 10" src="https://github.com/user-attachments/assets/98027d8b-c34d-4d44-b7ad-007a1c85d716" />
+<img width="1918" height="1008" alt="Image 11" src="https://github.com/user-attachments/assets/75c5d62d-5099-4c0b-a570-e3bc0bd0a12b" />
+
+---
+
+# **Scenario 7 – Configure Dynamic Membership Rules**
+
+A Dynamic User Security Group was created using department-based membership rules. Microsoft Entra ID automatically evaluated user attributes and assigned eligible users to the group.
+
+## **Steps Performed**
+
+1. Created a new Security Group.
+2. Selected **Dynamic User** as the membership type.
+3. Configured a dynamic membership rule using the **Department** attribute.
+4. Saved the rule.
+5. Verified automatic user membership.
+
+## **Screenshots**
+<img width="1918" height="1008" alt="Image 12" src="https://github.com/user-attachments/assets/63306b2c-d2f9-465b-85db-85d1bbe54442" />
+<img width="1918" height="1008" alt="Image 13" src="https://github.com/user-attachments/assets/d31c656d-dc89-4278-b0a3-3f71f086434d" />
+<img width="1918" height="1011" alt="Image 14" src="https://github.com/user-attachments/assets/194d0c0a-c1ef-4a9b-a3e7-ec6509d056bd" />
+
+---
+
+# **Recommendations**
+
+Based on this lab, the following best practices are recommended:
+
+- Use Microsoft Entra ID to centrally manage user identities and organizational groups.
+- Monitor sign-in logs regularly to identify unusual authentication activity.
+- Configure Self-Service Password Reset (SSPR) to reduce administrative overhead while improving user productivity.
+- Use Security Groups to simplify permission management and application assignments.
+- Use Microsoft 365 Groups to support collaboration across Microsoft 365 services.
+- Implement Dynamic Groups where possible to automate membership based on user attributes and reduce manual administration.
+
+---
+
+# **Conclusion**
+
+This lab demonstrated core identity and access management tasks within Microsoft Entra ID. User accounts were created and configured, authentication activity was reviewed, deleted users were managed, Self-Service Password Reset settings were examined, multiple group types were created, users were assigned to Security Groups, and Dynamic Groups were configured using department-based membership rules. These administrative tasks demonstrate essential Microsoft Entra ID skills used to manage users, automate group membership, strengthen identity security, and simplify administration within modern Microsoft 365 environments.
