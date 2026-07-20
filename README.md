@@ -456,3 +456,100 @@ Based on this lab, the following best practices are recommended:
 # **Conclusion**
 
 This lab demonstrated core identity and access management tasks within Microsoft Entra ID. User accounts were created and configured, authentication activity was reviewed, deleted users were managed, Self-Service Password Reset settings were examined, multiple group types were created, users were assigned to Security Groups, and Dynamic Groups were configured using department-based membership rules. These administrative tasks demonstrate essential Microsoft Entra ID skills used to manage users, automate group membership, strengthen identity security, and simplify administration within modern Microsoft 365 environments.
+
+# Lab 5 – Microsoft Intune Device Enrollment Configuration
+
+## **Objective**
+
+The objective of this lab was to configure Microsoft Intune enrollment settings used to onboard and manage Windows devices. This included configuring Automatic Enrollment, managing Device Enrollment Limits, creating Enrollment Notifications for Windows devices, and reviewing Windows Hello for Business settings to strengthen authentication and streamline the device enrollment process.
+
+---
+
+# **Scenario 1 – Configure Automatic Enrollment**
+
+Automatic Enrollment was configured to allow Windows devices joined to Microsoft Entra ID to automatically enroll into Microsoft Intune for centralized device management.
+
+## **Steps Performed**
+
+1. Navigated to **Microsoft Intune Admin Center → Devices → Enrollment → Automatic Enrollment**.
+2. Configured the **MDM User Scope** to **All**.
+3. Verified the default MDM enrollment URLs.
+4. Confirmed the Windows Information Protection (WIP) configuration.
+5. Saved the enrollment configuration.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 1" src="https://github.com/user-attachments/assets/2e99565d-ae22-4a92-aaa9-1e3a9b50ad30" />
+
+---
+
+# **Scenario 2 – Configure Device Enrollment Limits**
+
+Device Enrollment Limits were reviewed to control the maximum number of devices a user can enroll into Microsoft Intune.
+
+## **Steps Performed**
+
+1. Navigated to **Devices → Enrollment → Device Limit Restrictions**.
+2. Opened the default enrollment restriction.
+3. Reviewed the maximum device enrollment limit.
+4. Verified the device limit configuration.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 2" src="https://github.com/user-attachments/assets/bad60566-262b-4761-9b5b-17e9d59205c3" />
+
+---
+
+# **Scenario 3 – Create an Enrollment Notification**
+
+An Enrollment Notification was created to automatically notify users when a Windows device has successfully enrolled into Microsoft Intune.
+
+## **Steps Performed**
+
+1. Navigated to **Devices → Enrollment → Enrollment Notifications**.
+2. Created a new Windows Enrollment Notification.
+3. Enabled Push Notifications.
+4. Configured the notification subject and enrollment message.
+5. Assigned the notification to the **Windows Devices** security group.
+6. Reviewed the configuration before deployment.
+7. Created the notification.
+8. Verified the notification within the Enrollment Notifications dashboard.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 3" src="https://github.com/user-attachments/assets/12d59b71-41b1-4f04-87cd-be747e644d11" />
+<img width="1918" height="1010" alt="Image 4" src="https://github.com/user-attachments/assets/142d9d98-df1a-458a-878f-55d9c6502309" />
+<img width="1918" height="1010" alt="Image 5" src="https://github.com/user-attachments/assets/0bcbfbf3-e010-4d06-9f89-9c0d800f28f6" />
+<img width="1918" height="1011" alt="Image 6" src="https://github.com/user-attachments/assets/e42b140b-5685-47d3-9860-07d8824c5267" />
+
+---
+
+# **Scenario 4 – Configure Windows Hello for Business**
+
+Windows Hello for Business settings were reviewed to demonstrate how organizations configure passwordless authentication using PINs, biometrics, and Trusted Platform Module (TPM) security.
+
+## **Steps Performed**
+
+1. Navigated to **Devices → Enrollment → Windows Hello for Business**.
+2. Reviewed the Windows Hello for Business configuration.
+3. Verified TPM requirements.
+4. Reviewed PIN configuration settings.
+5. Confirmed Windows Hello for Business was enabled for users.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 7" src="https://github.com/user-attachments/assets/daa7a99d-71ec-45d9-8379-5ac65e15893b" />
+
+---
+
+# **Recommendations**
+
+Based on this lab, the following best practices are recommended:
+
+- Configure Automatic Enrollment to simplify Windows device onboarding into Microsoft Intune.
+- Apply Device Enrollment Limits to prevent excessive device registrations.
+- Implement Enrollment Notifications to keep users informed during the enrollment process.
+- Enable Windows Hello for Business to strengthen endpoint authentication using passwordless sign-in methods.
+- Regularly review enrollment policies to ensure devices are onboarded securely and consistently across the organization.
+
+---
+
+# **Conclusion**
+
+This lab demonstrated the foundational Microsoft Intune enrollment settings required before deploying managed Windows devices. Automatic Enrollment was configured to streamline device onboarding, Device Enrollment Limits were reviewed to control user registrations, Enrollment Notifications were created to provide user feedback during enrollment, and Windows Hello for Business settings were examined to strengthen authentication. Together, these configurations establish a secure and standardized enrollment process for Windows devices within Microsoft Intune.<img width="1918" height="1010" alt="Image 1" src="https://github.com/user-attachments/assets/a0aa1fb5-3fae-4ea1-b020-dd778d671c5e" />
