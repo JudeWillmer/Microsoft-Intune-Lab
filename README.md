@@ -552,4 +552,94 @@ Based on this lab, the following best practices are recommended:
 
 # **Conclusion**
 
-This lab demonstrated the foundational Microsoft Intune enrollment settings required before deploying managed Windows devices. Automatic Enrollment was configured to streamline device onboarding, Device Enrollment Limits were reviewed to control user registrations, Enrollment Notifications were created to provide user feedback during enrollment, and Windows Hello for Business settings were examined to strengthen authentication. Together, these configurations establish a secure and standardized enrollment process for Windows devices within Microsoft Intune.<img width="1918" height="1010" alt="Image 1" src="https://github.com/user-attachments/assets/a0aa1fb5-3fae-4ea1-b020-dd778d671c5e" />
+This lab demonstrated the foundational Microsoft Intune enrollment settings required before deploying managed Windows devices. Automatic Enrollment was configured to streamline device onboarding, Device Enrollment Limits were reviewed to control user registrations, Enrollment Notifications were created to provide user feedback during enrollment, and Windows Hello for Business settings were examined to strengthen authentication. Together, these configurations establish a secure and standardized enrollment process for Windows devices within Microsoft Intune.
+
+# Lab 6 – Action1 Endpoint Management and Remote Monitoring
+
+## **Objective**
+
+The objective of this lab was to deploy and manage endpoints using the Action1 Remote Monitoring and Management (RMM) platform. The Action1 agent was deployed through Microsoft Intune, endpoints were onboarded into Action1, software deployments were automated, operating system updates and vulnerabilities were managed, hardware inventory reports were generated, and administrative activities were reviewed through automation history.
+
+---
+
+# **Scenario 1 – Deploy the Action1 Agent**
+
+The Action1 Windows agent was downloaded, deployed through Microsoft Intune as a Windows Line-of-Business application, and installed on a Windows endpoint. The endpoint successfully registered with the Action1 cloud console, demonstrating centralized endpoint onboarding.
+
+## **Steps Performed**
+
+1. Downloaded the Action1 Windows agent from the Action1 portal.
+2. Verified the downloaded MSI installation package.
+3. Uploaded the MSI package into Microsoft Intune as a Windows Line-of-Business application.
+4. Assigned the application to the Windows Devices security group.
+5. Installed the Action1 agent.
+6. Verified successful endpoint registration within the Action1 console.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 1" src="https://github.com/user-attachments/assets/8b26592a-37c1-4d1b-a810-2d0a9ebe44e9" />
+<img width="1918" height="1010" alt="Image 2" src="https://github.com/user-attachments/assets/2fbb8c3e-86a8-4508-8296-91d065571340" />
+<img width="1918" height="1010" alt="Image 3" src="https://github.com/user-attachments/assets/97fdd8e8-a326-4cbd-8d7b-172163d1ba83" />
+<img width="1918" height="1010" alt="Image 4" src="https://github.com/user-attachments/assets/a4613816-af63-459c-8a81-1225c25b4c2f" />
+
+---
+
+# **Scenario 2 – Automate Software Deployment**
+
+Software deployment automation was configured using Action1 to deploy third-party applications to managed endpoints. An automation policy was created, endpoints were selected, and deployment results were reviewed after successful installation.
+
+## **Steps Performed**
+
+1. Navigated to **Action1 → Automations → New Automation**.
+2. Selected **Deploy Software**.
+3. Chose software packages from the Action1 Software Repository.
+4. Selected the target managed endpoint.
+5. Executed the software deployment automation.
+6. Reviewed automation results and deployment status.
+
+## **Screenshots**
+<img width="1918" height="1008" alt="Image 5" src="https://github.com/user-attachments/assets/9ddd24ae-201f-410b-b56a-18fa39798fd8" />
+<img width="1918" height="1010" alt="Image 6" src="https://github.com/user-attachments/assets/2745fa0f-227d-48c0-948c-92b6977909c2" />
+<img width="1918" height="1010" alt="Image 7" src="https://github.com/user-attachments/assets/13d9a89f-0394-43e6-8dfe-42ba463aaa1b" />
+<img width="1918" height="1011" alt="Image 8" src="https://github.com/user-attachments/assets/92ccfe7c-3106-4596-a6bd-3d07e87f02d0" />
+<img width="1918" height="1010" alt="Image 9" src="https://github.com/user-attachments/assets/32327f87-d8c4-47e9-9988-f7969bbeabee" />
+
+---
+
+# **Scenario 3 – Perform Endpoint Administration**
+
+Endpoint administration features were explored by remotely managing a device, deploying Windows updates, reviewing hardware inventory, identifying vulnerabilities, and verifying completed administrative actions through Action1 history.
+
+## **Steps Performed**
+
+1. Accessed remote endpoint management options.
+2. Reviewed available Windows and third-party software updates.
+3. Generated a hardware inventory report.
+4. Reviewed detected endpoint vulnerabilities.
+5. Initiated vulnerability remediation.
+6. Verified completed administrative actions through automation history.
+
+## **Screenshots**
+<img width="1918" height="1010" alt="Image 10" src="https://github.com/user-attachments/assets/15236d2d-667b-4e49-821a-b5e64bb0a26c" />
+<img width="1918" height="1010" alt="Image 11" src="https://github.com/user-attachments/assets/6fa59810-71d1-457b-9b87-d3c86c0fbe0d" />
+<img width="1918" height="1011" alt="Image 12" src="https://github.com/user-attachments/assets/756f15f7-5159-41dc-8e5b-bd2ee469b2dd" />
+<img width="1918" height="1008" alt="Image 13" src="https://github.com/user-attachments/assets/c7515ef0-f504-401e-a6a8-efa8fc6c2b6b" />
+<img width="1918" height="1010" alt="Image 14" src="https://github.com/user-attachments/assets/c1813137-df5d-4ac4-97d6-2ec7b272a135" />
+
+---
+
+# **Recommendations**
+
+Based on this lab, the following best practices are recommended:
+
+- Deploy the Action1 agent through Microsoft Intune to streamline endpoint onboarding and management.
+- Utilize software deployment automation to standardize application installations across managed devices.
+- Regularly review missing updates to maintain endpoint security and reduce exposure to vulnerabilities.
+- Monitor vulnerability reports and remediate identified security issues promptly.
+- Generate hardware inventory reports to improve asset visibility and support lifecycle management.
+- Review automation history regularly to verify successful administrative tasks and identify failed operations.
+
+---
+
+# **Conclusion**
+
+This lab demonstrated how Action1 provides centralized cloud-based endpoint management and remote monitoring capabilities. The Action1 agent was deployed through Microsoft Intune, managed endpoints were onboarded successfully, software deployments were automated, updates and vulnerabilities were managed, hardware inventory reports were generated, and administrative activities were verified through automation history. These tasks demonstrate practical skills in endpoint administration, patch management, software deployment, vulnerability remediation, and remote management using a modern cloud-based RMM platform.
