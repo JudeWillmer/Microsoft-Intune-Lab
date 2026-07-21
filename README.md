@@ -566,17 +566,16 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Downloaded the Action1 Windows agent.
-2. Installed the agent on a Windows 10 virtual machine.
-3. Imported the Action1 agent into Microsoft Intune as a Windows line-of-business application.
-4. Verified the endpoint successfully registered within the Action1 console.
+1. Navigated to **Action1 → Endpoints → Install Agent**.
+2. Downloaded the Windows MSI agent installer.
+3. Imported the Action1 Agent into Microsoft Intune as a Windows line-of-business application.
+4. Verified the endpoint successfully registered in the Action1 console.
 
 ### Screenshots
-
-- **Figure 1:** Downloading the Action1 Windows agent
-- **Figure 2:** Downloaded Action1 MSI installer
-- **Figure 3:** Action1 agent imported into Microsoft Intune
-- **Figure 4:** Endpoint successfully onboarded into Action1
+<img width="1918" height="1010" alt="Image 1" src="https://github.com/user-attachments/assets/3dd95a37-94d1-4244-9ea3-c389d9e6de2e" />
+<img width="1918" height="1010" alt="Image 2" src="https://github.com/user-attachments/assets/adac71c9-2a36-4f59-acff-1153f0108d02" />
+<img width="1918" height="1010" alt="Image 3" src="https://github.com/user-attachments/assets/dad45ad8-9513-4cae-8ee7-b339883aa3aa" />
+<img width="1918" height="1010" alt="Image 4" src="https://github.com/user-attachments/assets/f2bbbb64-dc63-4fd1-a6ce-7c9096d16892" />
 
 ---
 
@@ -584,17 +583,17 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Created a new software deployment automation.
-2. Selected Google Chrome and Adobe Acrobat Reader from the Action1 software repository.
-3. Configured the deployment for managed endpoints.
-4. Verified the deployment automation was successfully created.
+1. Navigated to **Action1 → Automations → Deploy Software**.
+2. Selected Google Chrome and Adobe Acrobat Reader DC from the software repository.
+3. Configured the deployment for the managed endpoint.
+4. Created the deployment automation.
+5. Verified the software deployment completed successfully.
 
 ### Screenshots
-
-- **Figure 5:** Creating a software deployment automation
-- **Figure 6:** Selecting software packages for deployment
-- **Figure 7:** Deployment automation created
-- **Figure 8:** Successful software deployment details
+<img width="1918" height="1008" alt="Image 5" src="https://github.com/user-attachments/assets/7b176ce1-9d9b-4574-858f-21bb78e2c35a" />
+<img width="1918" height="1010" alt="Image 6" src="https://github.com/user-attachments/assets/77dcd8c8-0bb8-42df-9c6b-30e6bf3b214d" />
+<img width="1918" height="1011" alt="Image 7" src="https://github.com/user-attachments/assets/3f219ead-3295-4706-87b8-2950b6ff72f4" />
+<img width="1918" height="1010" alt="Image 8" src="https://github.com/user-attachments/assets/ed2b0473-cb10-40f0-9d42-de45425aa468" />
 
 ---
 
@@ -602,13 +601,13 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Accessed the managed endpoint.
-2. Opened the endpoint actions menu.
-3. Verified Remote Desktop was available for remote administration.
+1. Navigated to **Action1 → Endpoints**.
+2. Selected the managed endpoint.
+3. Opened the endpoint Actions menu.
+4. Verified Remote Desktop was available for remote administration.
 
 ### Screenshots
-
-- **Figure 9:** Remote management options available for the endpoint
+<img width="1918" height="1010" alt="Image 9" src="https://github.com/user-attachments/assets/a42a9e0f-91ce-444d-aa26-4d4fca5f18f1" />
 
 ---
 
@@ -616,14 +615,13 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Reviewed available Windows updates.
-2. Selected a cumulative Windows security update.
-3. Initiated deployment from the Action1 console.
-4. Verified the update deployment process.
+1. Navigated to **Action1 → Endpoints → Missing Updates**.
+2. Selected the available Windows security update.
+3. Initiated the update deployment.
+4. Verified the update deployment task was successfully created.
 
 ### Screenshots
-
-- **Figure 10:** Deploying Windows updates to a managed endpoint
+<img width="1918" height="1010" alt="Image 10" src="https://github.com/user-attachments/assets/f197d6b5-0d87-4a6b-b48d-3806c869bfdc" />
 
 ---
 
@@ -631,13 +629,13 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Reviewed detected endpoint vulnerabilities.
-2. Identified affected endpoints.
-3. Initiated vulnerability remediation using Action1.
+1. Navigated to **Action1 → Vulnerabilities**.
+2. Reviewed detected CVE findings for the managed endpoint.
+3. Selected the affected endpoint.
+4. Started the vulnerability remediation process.
 
 ### Screenshots
-
-- **Figure 11:** Vulnerability remediation dashboard
+<img width="1918" height="1008" alt="Image 11" src="https://github.com/user-attachments/assets/9a7e43e0-c208-4513-b9b1-1c1020cfbc63" />
 
 ---
 
@@ -645,13 +643,13 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Opened the Hardware Inventory reports.
-2. Reviewed collected endpoint hardware information.
-3. Verified CPU, RAM, storage, and hardware configuration details.
+1. Navigated to **Action1 → Built-in Reports → Hardware Inventory → Hardware Summary**.
+2. Reviewed the endpoint hardware inventory.
+3. Verified CPU, RAM, storage, and network adapter information.
+4. Exported the hardware report as HTML.
 
 ### Screenshots
-
-- **Figure 12:** Hardware inventory report
+<img width="1918" height="1011" alt="Image 12" src="https://github.com/user-attachments/assets/381ca7b9-138b-46a2-96c7-8db8566adef0" />
 
 ---
 
@@ -659,13 +657,13 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 ### Steps Performed
 
-1. Opened the Automation History dashboard.
+1. Navigated to **Action1 → History**.
 2. Reviewed completed automation tasks.
-3. Verified successful software deployments and update installations.
+3. Verified successful software deployments, Windows updates, and vulnerability remediation activities.
+4. Confirmed endpoint management tasks completed successfully.
 
 ### Screenshots
-
-- **Figure 13:** Automation history showing completed endpoint tasks
+<img width="1918" height="1010" alt="Image 13" src="https://github.com/user-attachments/assets/eb31089f-ff96-4035-9af2-8ec97dd1953d" />
 
 ---
 
