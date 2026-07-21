@@ -566,8 +566,6 @@ Demonstrate the deployment, onboarding, and administration of Windows endpoints 
 
 A Windows endpoint was onboarded into the Action1 platform to enable centralized endpoint monitoring and management. The Action1 agent was downloaded, imported into Microsoft Intune as a line-of-business application, and successfully installed, allowing the endpoint to register with the Action1 console.
 
----
-
 ### Steps Performed
 
 1. Navigated to **Action1 → Endpoints → Install Agent**.
@@ -586,8 +584,6 @@ A Windows endpoint was onboarded into the Action1 platform to enable centralized
 ## Scenario 2 – Deploy Third-Party Software
 
 Third-party software was deployed using the Action1 Software Repository to demonstrate centralized application deployment. Google Chrome and Adobe Acrobat Reader DC were selected and assigned to the managed endpoint, enabling automated software installation without requiring manual user intervention.
-
----
 
 ### Steps Performed
 
@@ -609,8 +605,6 @@ Third-party software was deployed using the Action1 Software Repository to demon
 
 A managed Windows endpoint was accessed through the Action1 console to demonstrate remote endpoint administration. Remote management features, including Remote Desktop access, were verified to enable administrators to securely manage endpoints from a centralized platform.
 
----
-
 ### Steps Performed
 
 1. Navigated to **Action1 → Endpoints**.
@@ -626,8 +620,6 @@ A managed Windows endpoint was accessed through the Action1 console to demonstra
 ## Scenario 4 – Deploy Windows Updates
 
 Windows updates were deployed through the Action1 platform to maintain endpoint security and system compliance. Available security updates were selected and deployed to the managed endpoint, demonstrating centralized patch management and automated update deployment.
-
----
 
 ### Steps Performed
 
@@ -645,8 +637,6 @@ Windows updates were deployed through the Action1 platform to maintain endpoint 
 
 Endpoint vulnerabilities were reviewed and remediated using Action1's built-in vulnerability management capabilities. Detected CVEs were analyzed, and the remediation process was initiated to reduce security risks and improve the endpoint's overall security posture.
 
----
-
 ### Steps Performed
 
 1. Navigated to **Action1 → Vulnerabilities**.
@@ -663,8 +653,6 @@ Endpoint vulnerabilities were reviewed and remediated using Action1's built-in v
 
 A hardware inventory report was generated using Action1's reporting features to collect detailed endpoint hardware information. System specifications, including CPU, memory, storage, and network adapter details, were reviewed and exported to support asset management and inventory reporting.
 
----
-
 ### Steps Performed
 
 1. Navigated to **Action1 → Built-in Reports → Hardware Inventory → Hardware Summary**.
@@ -680,8 +668,6 @@ A hardware inventory report was generated using Action1's reporting features to 
 ## Scenario 7 – Review Automation History
 
 The Action1 automation history was reviewed to verify the successful execution of endpoint management tasks. Completed software deployments, Windows updates, and vulnerability remediation activities were confirmed, demonstrating centralized tracking and reporting of automated administrative actions.
-
----
 
 ### Steps Performed
 
