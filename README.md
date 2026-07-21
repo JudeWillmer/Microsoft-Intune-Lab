@@ -553,3 +553,132 @@ Based on this lab, the following best practices are recommended:
 # **Conclusion**
 
 This lab demonstrated the foundational Microsoft Intune enrollment settings required before deploying managed Windows devices. Automatic Enrollment was configured to streamline device onboarding, Device Enrollment Limits were reviewed to control user registrations, Enrollment Notifications were created to provide user feedback during enrollment, and Windows Hello for Business settings were examined to strengthen authentication. Together, these configurations establish a secure and standardized enrollment process for Windows devices within Microsoft Intune.
+
+# Lab 6 – Action1 RMM Fundamentals
+
+## Objective
+
+Demonstrate the deployment, onboarding, and administration of Windows endpoints using Action1 Remote Monitoring and Management (RMM). This lab covers endpoint onboarding, software deployment, remote management, patch management, vulnerability remediation, hardware inventory reporting, and automation tracking.
+
+---
+
+## Scenario 1 – Onboard a Windows Endpoint
+
+### Steps Performed
+
+1. Downloaded the Action1 Windows agent.
+2. Installed the agent on a Windows 10 virtual machine.
+3. Imported the Action1 agent into Microsoft Intune as a Windows line-of-business application.
+4. Verified the endpoint successfully registered within the Action1 console.
+
+### Screenshots
+
+- **Figure 1:** Downloading the Action1 Windows agent
+- **Figure 2:** Downloaded Action1 MSI installer
+- **Figure 3:** Action1 agent imported into Microsoft Intune
+- **Figure 4:** Endpoint successfully onboarded into Action1
+
+---
+
+## Scenario 2 – Deploy Third-Party Software
+
+### Steps Performed
+
+1. Created a new software deployment automation.
+2. Selected Google Chrome and Adobe Acrobat Reader from the Action1 software repository.
+3. Configured the deployment for managed endpoints.
+4. Verified the deployment automation was successfully created.
+
+### Screenshots
+
+- **Figure 5:** Creating a software deployment automation
+- **Figure 6:** Selecting software packages for deployment
+- **Figure 7:** Deployment automation created
+- **Figure 8:** Successful software deployment details
+
+---
+
+## Scenario 3 – Remote Endpoint Management
+
+### Steps Performed
+
+1. Accessed the managed endpoint.
+2. Opened the endpoint actions menu.
+3. Verified Remote Desktop was available for remote administration.
+
+### Screenshots
+
+- **Figure 9:** Remote management options available for the endpoint
+
+---
+
+## Scenario 4 – Deploy Windows Updates
+
+### Steps Performed
+
+1. Reviewed available Windows updates.
+2. Selected a cumulative Windows security update.
+3. Initiated deployment from the Action1 console.
+4. Verified the update deployment process.
+
+### Screenshots
+
+- **Figure 10:** Deploying Windows updates to a managed endpoint
+
+---
+
+## Scenario 5 – Remediate Vulnerabilities
+
+### Steps Performed
+
+1. Reviewed detected endpoint vulnerabilities.
+2. Identified affected endpoints.
+3. Initiated vulnerability remediation using Action1.
+
+### Screenshots
+
+- **Figure 11:** Vulnerability remediation dashboard
+
+---
+
+## Scenario 6 – Generate Hardware Inventory Reports
+
+### Steps Performed
+
+1. Opened the Hardware Inventory reports.
+2. Reviewed collected endpoint hardware information.
+3. Verified CPU, RAM, storage, and hardware configuration details.
+
+### Screenshots
+
+- **Figure 12:** Hardware inventory report
+
+---
+
+## Scenario 7 – Review Automation History
+
+### Steps Performed
+
+1. Opened the Automation History dashboard.
+2. Reviewed completed automation tasks.
+3. Verified successful software deployments and update installations.
+
+### Screenshots
+
+- **Figure 13:** Automation history showing completed endpoint tasks
+
+---
+
+## Recommendations
+
+- Regularly review automation history to verify successful task execution.
+- Schedule routine Windows update deployments to maintain endpoint security.
+- Monitor vulnerability reports and remediate critical findings promptly.
+- Generate hardware inventory reports periodically to assist with asset management and lifecycle planning.
+- Use software deployment automation to standardize application installations across managed devices.
+
+---
+
+## Conclusion
+
+This lab demonstrated the core capabilities of Action1 RMM for endpoint administration. Windows endpoints were successfully onboarded, third-party applications were deployed, remote management capabilities were validated, Windows updates and vulnerability remediation were performed, hardware inventory reports were generated, and automation history was reviewed to verify completed administrative tasks. These exercises demonstrate practical endpoint management skills commonly required in enterprise IT support and systems administration environments.
