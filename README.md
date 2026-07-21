@@ -554,7 +554,7 @@ Based on this lab, the following best practices are recommended:
 
 This lab demonstrated the foundational Microsoft Intune enrollment settings required before deploying managed Windows devices. Automatic Enrollment was configured to streamline device onboarding, Device Enrollment Limits were reviewed to control user registrations, Enrollment Notifications were created to provide user feedback during enrollment, and Windows Hello for Business settings were examined to strengthen authentication. Together, these configurations establish a secure and standardized enrollment process for Windows devices within Microsoft Intune.
 
-# Lab 6 – Action1 RMM Fundamentals
+# Lab 6 – Action1 Endpoint Management
 
 ## Objective
 
